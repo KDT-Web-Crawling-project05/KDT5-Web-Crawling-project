@@ -31,5 +31,5 @@ if __name__ == '__main__':
 
     get_titles(0, 990, search_word, title_list)
 
-    with open('./DATA/title_list.txt', mode='w', encoding='utf-8') as f:
+    with open('./DATA/title_list_google.txt', mode='w', encoding='utf-8') as f:
         f.write(str(title_list))
